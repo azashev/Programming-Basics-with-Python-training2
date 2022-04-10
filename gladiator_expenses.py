@@ -23,4 +23,4 @@ for fight in range(1, lost_fights + 1):
         expenses += armor_price
         shield_brakes = 0
 
-print(f"Gladiator expenses: {expenses} aureus")
+print(f"Gladiator expenses: {expenses:.1f} aureus")

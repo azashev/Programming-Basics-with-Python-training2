@@ -9,21 +9,9 @@ for i in range(shuffles):
     left_part = card_deck[:half_deck]
     right_part = card_deck[half_deck::]
 
-    for gosho in range(len(left_part)):
-        result.append(left_part[gosho])
-        result.append(right_part[gosho])
+    for card in range(len(left_part)):
+        result.append(left_part[card])
+        result.append(right_part[card])
 
     card_deck = result
 print(card_deck)
-
-
-
-
-
-
-
-
-
-
-
-#    for num in range(len(card_deck)):

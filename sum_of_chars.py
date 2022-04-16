@@ -1,9 +1,9 @@
 lines = int(input())
 
-sum = 0
+total_sum = 0
 
 for i in range(lines):
     char = input()
-    sum += ord(char)
+    total_sum += ord(char)
 
-print(f"The sum equals: {sum}")
+print(f"The sum equals: {total_sum}")

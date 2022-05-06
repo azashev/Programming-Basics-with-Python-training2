@@ -3,7 +3,7 @@ def list_positives(numbers):
 
 
 def list_negatives(numbers):
-    return [str(x) for x in list_numbers if x <= 0]
+    return [str(x) for x in list_numbers if x < 0]
 
 
 def list_evens(numbers):

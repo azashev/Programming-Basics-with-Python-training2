@@ -29,7 +29,7 @@ while command != "end":
 
     if elements[element_one] == elements[element_two]:
         matching_element = elements[element_one]
-        if element_one >= element_two:
+        if element_one > element_two:
             elements.pop(element_one)
             elements.pop(element_two)
         else:

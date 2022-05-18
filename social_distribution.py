@@ -30,3 +30,4 @@ if is_valid:
     print(population)
 else:
     print("No equal distribution possible")
+
